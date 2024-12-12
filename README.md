@@ -2,11 +2,6 @@
 
 First, run the development server:
 
-## policy might need change due to next.js :
-
-    1. You might need to check your execution policy by **Get-ExecutionPolicy** if it is restricted you will get error.
-    2.  Please run **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass** in your terminal.
-
 ```bash
 1. npm install
 
