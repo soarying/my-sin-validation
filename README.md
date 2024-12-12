@@ -1,17 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
 
+## policy might need change due to next.js :
+
+    1. You might need to check your execution policy by **Get-ExecutionPolicy** if it is restricted you will get error.
+    2.  Please run **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass** in your terminal.
+
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. npm install
+
+2. npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
